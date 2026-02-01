@@ -47,6 +47,9 @@ CREATE TABLE order_reviews (
     review_id VARCHAR PRIMARY KEY,
     order_id VARCHAR,
     review_score INT,
+    review_comment_title TEXT,
+    review_comment_message TEXT,
     review_creation_date TIMESTAMP,
     review_answer_timestamp TIMESTAMP
 );
+
