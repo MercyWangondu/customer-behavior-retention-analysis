@@ -44,7 +44,7 @@ CREATE TABLE order_payments (
 
 -- Create order_reviews table
 CREATE TABLE order_reviews (
-    review_id VARCHAR PRIMARY KEY,
+    review_id VARCHAR,
     order_id VARCHAR,
     review_score INT,
     review_comment_title TEXT,
@@ -52,4 +52,5 @@ CREATE TABLE order_reviews (
     review_creation_date TIMESTAMP,
     review_answer_timestamp TIMESTAMP
 );
+
 
