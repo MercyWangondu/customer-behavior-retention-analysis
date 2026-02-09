@@ -161,15 +161,5 @@ This project showcases the ability to:
 
 ---
 
-## Next Possible Extensions
 
-Future improvements could include:
-
-- Power BI or Tableau dashboards
-- Python-based analysis layer
-- Predictive churn modeling
-- Customer segmentation modeling
-- Automated reporting
-
----
 
